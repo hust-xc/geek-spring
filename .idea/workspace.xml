@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9b844a8-21fd-4311-961b-5a58fd910cbc" name="Default Changelist" comment="" />
+    <list default="true" id="b9b844a8-21fd-4311-961b-5a58fd910cbc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ioc-container-overview/src/main/java/org/geekbang/thinking/in/spring/ioc/overview/dependency/injection/DependencyInjectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container-overview/src/main/java/org/geekbang/thinking/in/spring/ioc/overview/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container-overview/src/main/resources/META-INF/dependency-injection-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,7 +35,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1hVVsi1dl88LSUInQh0h5gr4rP5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -34,6 +48,35 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ioc-container-overview/src/main/resources/META-INF" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.geekbang.thinking.in.spring.ioc.overview.dependency.injection" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myStudy\thinking-in-spring\ioc-container-overview\src\main\resources\META-INF" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DependencyInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geekbang.thinking.in.spring.ioc.overview.dependency.injection.DependencyInjectionDemo" />
+      <module name="ioc-container-overview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.geekbang.thinking.in.spring.ioc.overview.dependency.injection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DependencyInjectionDemo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -46,6 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600096454922</updated>
       <workItem from="1600096458123" duration="1002000" />
+      <workItem from="1601518225180" duration="2308000" />
     </task>
     <servers />
   </component>
@@ -53,25 +97,53 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1600128453141">
+    <state x="446" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1601521905788">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1600128453141" />
-    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1600128453140">
+    <state x="446" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1601521905788" />
+    <state width="1238" height="236" key="GridCell.Tab.0.bottom" timestamp="1601522148640">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1600128453140" />
-    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1600128453140">
+    <state width="1238" height="236" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1601522148640" />
+    <state width="1238" height="236" key="GridCell.Tab.0.center" timestamp="1601522148640">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1600128453140" />
-    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1600128453140">
+    <state width="1238" height="236" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1601522148640" />
+    <state width="1238" height="236" key="GridCell.Tab.0.left" timestamp="1601522148640">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1600128453140" />
+    <state width="1238" height="236" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1601522148640" />
+    <state width="1238" height="236" key="GridCell.Tab.0.right" timestamp="1601522148640">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="236" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1601522148640" />
+    <state width="1238" height="236" key="GridCell.Tab.1.bottom" timestamp="1601522148302">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="236" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1601522148302" />
+    <state width="1238" height="236" key="GridCell.Tab.1.center" timestamp="1601522148302">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="236" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1601522148302" />
+    <state width="1238" height="236" key="GridCell.Tab.1.left" timestamp="1601522148302">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="236" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1601522148302" />
+    <state width="1238" height="236" key="GridCell.Tab.1.right" timestamp="1601522148302">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="236" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1601522148302" />
+    <state x="309" y="3" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601522111730">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="309" y="3" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.760@0.0.1280.760" timestamp="1601522111730" />
     <state x="14" y="164" key="new project wizard" timestamp="1600096793356">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="14" y="164" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1600096793356" />
+    <state x="303" y="82" width="672" height="678" key="search.everywhere.popup" timestamp="1601520687404">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="303" y="82" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1601520687404" />
   </component>
 </project>
