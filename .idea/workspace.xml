@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9b844a8-21fd-4311-961b-5a58fd910cbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dependency-lookup/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependency-lookup/src/main/java/org/geekbang/thinking/in/spring/dependency/lookup/HierarchicalDependencyLookupDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependency-lookup/src/main/java/org/geekbang/thinking/in/spring/dependency/lookup/ObjectProviderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-lookup/src/main/java/org/geekbang/thinking/in/spring/dependency/lookup/TypeSafetyDependencyLookupDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,22 +64,9 @@
       <recent name="D:\myStudy\thinking-in-spring\ioc-container-overview\src\main\resources\META-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ObjectProviderDemo">
+  <component name="RunManager" selected="Application.TypeSafetyDependencyLookupDemo">
     <configuration name="BeanGarbageCollectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.geekbang.thinking.in.spring.bean.definition.BeanGarbageCollectionDemo" />
-      <module name="spring-bean" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.geekbang.thinking.in.spring.bean.definition.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeanInitializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.geekbang.thinking.in.spring.bean.definition.BeanInitializationDemo" />
       <module name="spring-bean" />
       <extension name="coverage">
         <pattern>
@@ -133,13 +117,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TypeSafetyDependencyLookupDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geekbang.thinking.in.spring.dependency.lookup.TypeSafetyDependencyLookupDemo" />
+      <module name="dependency-lookup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.geekbang.thinking.in.spring.dependency.lookup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TypeSafetyDependencyLookupDemo" />
         <item itemvalue="Application.ObjectProviderDemo" />
         <item itemvalue="Application.HierarchicalDependencyLookupDemo" />
         <item itemvalue="Application.SingletonBeanRegistrationDemo" />
         <item itemvalue="Application.BeanGarbageCollectionDemo" />
-        <item itemvalue="Application.BeanInitializationDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +154,7 @@
       <workItem from="1601518225180" duration="5677000" />
       <workItem from="1601690309304" duration="56000" />
       <workItem from="1601690381702" duration="14539000" />
-      <workItem from="1601948640840" duration="5629000" />
+      <workItem from="1601948640840" duration="7186000" />
     </task>
     <servers />
   </component>
@@ -176,22 +173,22 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="89" y="308" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.760@0.0.1280.760" timestamp="1601535433258" />
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1601955815010">
+    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1601962660164">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1601955815010" />
-    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1601955815009">
+    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1601962660164" />
+    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1601962660164">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1601955815009" />
-    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1601955815009">
+    <state width="1238" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1601962660164" />
+    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1601962660164">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1601955815009" />
-    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1601955815009">
+    <state width="1238" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1601962660164" />
+    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1601962660164">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1601955815009" />
+    <state width="1238" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1601962660164" />
     <state width="1238" height="236" key="GridCell.Tab.1.bottom" timestamp="1601910284039">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
