@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9b844a8-21fd-4311-961b-5a58fd910cbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dependency-injection/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependency-injection/src/main/java/org/geekbang/thinking/in/spring/ioc/dependency/injection/AnnotationDependencySetterInjectionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependency-injection/src/main/java/org/geekbang/thinking/in/spring/ioc/dependency/injection/ApiDependencySetterInjectionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependency-injection/src/main/java/org/geekbang/thinking/in/spring/ioc/dependency/injection/AutoWiringDependencySetterInjectionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependency-injection/src/main/java/org/geekbang/thinking/in/spring/ioc/dependency/injection/UserHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependency-injection/src/main/java/org/geekbang/thinking/in/spring/ioc/dependency/injection/XmlDependencySetterInjectionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependency-injection/src/main/resources/META-INF/autowiring-dependency-setter-injection.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependency-injection/src/main/resources/META-INF/dependency-setter-injection.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/src/main/java/org/geekbang/thinking/in/spring/ioc/dependency/injection/AnnotationDependencyConstructorInjectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/src/main/java/org/geekbang/thinking/in/spring/ioc/dependency/injection/ApiDependencyConstructorInjectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/src/main/java/org/geekbang/thinking/in/spring/ioc/dependency/injection/AutoWiringDependencyConstructorInjectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/src/main/java/org/geekbang/thinking/in/spring/ioc/dependency/injection/XmlDependencyConstructorInjectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/src/main/resources/META-INF/autowiring-dependency-constructor-injection.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/src/main/resources/META-INF/dependency-constructor-injection.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-injection/src/main/java/org/geekbang/thinking/in/spring/ioc/dependency/injection/UserHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-injection/src/main/java/org/geekbang/thinking/in/spring/ioc/dependency/injection/UserHolder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +62,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.geekbang.thinking.in.spring.ioc.dependency.injection" />
       <recent name="org.geekbang.thinking.in.spring.ioc.overview.container" />
       <recent name="org.geekbang.thinking.in.spring.ioc.overview.dependency.injection" />
     </key>
@@ -73,9 +72,9 @@
       <recent name="D:\myStudy\thinking-in-spring\ioc-container-overview\src\main\resources\META-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AutoWiringDependencySetterInjectionDemo">
-    <configuration name="AnnotationDependencySetterInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.geekbang.thinking.in.spring.ioc.dependency.injection.AnnotationDependencySetterInjectionDemo" />
+  <component name="RunManager" selected="Application.ApiDependencyConstructorInjectionDemo">
+    <configuration name="AnnotationDependencyConstructorInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geekbang.thinking.in.spring.ioc.dependency.injection.AnnotationDependencyConstructorInjectionDemo" />
       <module name="dependency-injection" />
       <extension name="coverage">
         <pattern>
@@ -87,8 +86,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiDependencySetterInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.geekbang.thinking.in.spring.ioc.dependency.injection.ApiDependencySetterInjectionDemo" />
+    <configuration name="ApiDependencyConstructorInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geekbang.thinking.in.spring.ioc.dependency.injection.ApiDependencyConstructorInjectionDemo" />
+      <module name="dependency-injection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.geekbang.thinking.in.spring.ioc.dependency.injection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoWiringDependencyConstructorInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geekbang.thinking.in.spring.ioc.dependency.injection.AutoWiringDependencyConstructorInjectionDemo" />
       <module name="dependency-injection" />
       <extension name="coverage">
         <pattern>
@@ -113,21 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeanCreationExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.geekbang.thinking.in.spring.dependency.lookup.BeanCreationExceptionDemo" />
-      <module name="dependency-lookup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.geekbang.thinking.in.spring.dependency.lookup.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XmlDependencySetterInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.geekbang.thinking.in.spring.ioc.dependency.injection.XmlDependencySetterInjectionDemo" />
+    <configuration name="XmlDependencyConstructorInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geekbang.thinking.in.spring.ioc.dependency.injection.XmlDependencyConstructorInjectionDemo" />
       <module name="dependency-injection" />
       <extension name="coverage">
         <pattern>
@@ -141,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ApiDependencyConstructorInjectionDemo" />
+        <item itemvalue="Application.AutoWiringDependencyConstructorInjectionDemo" />
+        <item itemvalue="Application.AnnotationDependencyConstructorInjectionDemo" />
+        <item itemvalue="Application.XmlDependencyConstructorInjectionDemo" />
         <item itemvalue="Application.AutoWiringDependencySetterInjectionDemo" />
-        <item itemvalue="Application.ApiDependencySetterInjectionDemo" />
-        <item itemvalue="Application.AnnotationDependencySetterInjectionDemo" />
-        <item itemvalue="Application.XmlDependencySetterInjectionDemo" />
-        <item itemvalue="Application.BeanCreationExceptionDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +162,7 @@
       <workItem from="1601518225180" duration="5677000" />
       <workItem from="1601690309304" duration="56000" />
       <workItem from="1601690381702" duration="14539000" />
-      <workItem from="1601948640840" duration="13391000" />
+      <workItem from="1601948640840" duration="14465000" />
     </task>
     <servers />
   </component>
@@ -174,10 +173,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1601983487516">
+    <state x="446" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1601985918529">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="446" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1601983487516" />
+    <state x="446" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1601985918529" />
     <state x="89" y="308" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1601535433258">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -186,22 +185,22 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="336" y="247" width="607" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.760@0.0.1280.760" timestamp="1601980979467" />
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1601985211580">
+    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1601986219274">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1601985211580" />
-    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1601985211580">
+    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1601986219274" />
+    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1601986219274">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1601985211580" />
-    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1601985211580">
+    <state width="1238" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1601986219274" />
+    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1601986219274">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1601985211580" />
-    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1601985211580">
+    <state width="1238" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1601986219274" />
+    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1601986219274">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1601985211580" />
+    <state width="1238" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1601986219274" />
     <state width="1238" height="236" key="GridCell.Tab.1.bottom" timestamp="1601965623717">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
