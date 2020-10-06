@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9b844a8-21fd-4311-961b-5a58fd910cbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-bean/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/geekbang/thinking/in/spring/bean/definition/AnnotationBeanDefinitionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/geekbang/thinking/in/spring/bean/definition/BeanAliasDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/geekbang/thinking/in/spring/bean/definition/BeanDefinitionCreationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/geekbang/thinking/in/spring/bean/definition/BeanGarbageCollectionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/geekbang/thinking/in/spring/bean/definition/BeanInitializationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/geekbang/thinking/in/spring/bean/definition/BeanInstantiationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/geekbang/thinking/in/spring/bean/definition/SingletonBeanRegistrationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/geekbang/thinking/in/spring/bean/definition/SpecialBeanInstantiationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/geekbang/thinking/in/spring/bean/factory/DefaultUserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/geekbang/thinking/in/spring/bean/factory/UserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/geekbang/thinking/in/spring/bean/factory/UserFactoryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/resources/META-INF/bean-definitions-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/resources/META-INF/bean-instantiation-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/resources/META-INF/services/org.geekbang.thinking.in.spring.bean.factory.UserFactory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/resources/META-INF/special-bean-instantiation-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-lookup/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-lookup/src/main/java/org/geekbang/thinking/in/spring/dependency/lookup/HierarchicalDependencyLookupDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-lookup/src/main/java/org/geekbang/thinking/in/spring/dependency/lookup/ObjectProviderDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc-container-overview/src/main/java/org/geekbang/thinking/in/spring/ioc/overview/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc-container-overview/src/main/java/org/geekbang/thinking/in/spring/ioc/overview/domain/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +67,7 @@
       <recent name="D:\myStudy\thinking-in-spring\ioc-container-overview\src\main\resources\META-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingletonBeanRegistrationDemo">
+  <component name="RunManager" selected="Application.ObjectProviderDemo">
     <configuration name="BeanGarbageCollectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.geekbang.thinking.in.spring.bean.definition.BeanGarbageCollectionDemo" />
       <module name="spring-bean" />
@@ -108,12 +94,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeanInstantiationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.geekbang.thinking.in.spring.bean.definition.BeanInstantiationDemo" />
-      <module name="spring-bean" />
+    <configuration name="HierarchicalDependencyLookupDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geekbang.thinking.in.spring.dependency.lookup.HierarchicalDependencyLookupDemo" />
+      <module name="dependency-lookup" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.geekbang.thinking.in.spring.bean.definition.*" />
+          <option name="PATTERN" value="org.geekbang.thinking.in.spring.dependency.lookup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectProviderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geekbang.thinking.in.spring.dependency.lookup.ObjectProviderDemo" />
+      <module name="dependency-lookup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.geekbang.thinking.in.spring.dependency.lookup.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,26 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpecialBeanInstantiationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.geekbang.thinking.in.spring.bean.definition.SpecialBeanInstantiationDemo" />
-      <module name="spring-bean" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.geekbang.thinking.in.spring.bean.definition.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectProviderDemo" />
+        <item itemvalue="Application.HierarchicalDependencyLookupDemo" />
         <item itemvalue="Application.SingletonBeanRegistrationDemo" />
         <item itemvalue="Application.BeanGarbageCollectionDemo" />
         <item itemvalue="Application.BeanInitializationDemo" />
-        <item itemvalue="Application.SpecialBeanInstantiationDemo" />
-        <item itemvalue="Application.BeanInstantiationDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +156,8 @@
       <workItem from="1600096458123" duration="1002000" />
       <workItem from="1601518225180" duration="5677000" />
       <workItem from="1601690309304" duration="56000" />
-      <workItem from="1601690381702" duration="13580000" />
+      <workItem from="1601690381702" duration="14539000" />
+      <workItem from="1601948640840" duration="5629000" />
     </task>
     <servers />
   </component>
@@ -189,53 +176,53 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="89" y="308" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.760@0.0.1280.760" timestamp="1601535433258" />
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1601908681986">
+    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1601955815010">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1601908681986" />
-    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1601908681986">
+    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1601955815010" />
+    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1601955815009">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1601908681986" />
-    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1601908681986">
+    <state width="1238" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1601955815009" />
+    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1601955815009">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1601908681986" />
-    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1601908681986">
+    <state width="1238" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1601955815009" />
+    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1601955815009">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1601908681986" />
-    <state width="1238" height="236" key="GridCell.Tab.1.bottom" timestamp="1601710709637">
+    <state width="1238" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1601955815009" />
+    <state width="1238" height="236" key="GridCell.Tab.1.bottom" timestamp="1601910284039">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="236" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1601710709637" />
-    <state width="1238" height="236" key="GridCell.Tab.1.center" timestamp="1601710709637">
+    <state width="1238" height="236" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1601910284039" />
+    <state width="1238" height="236" key="GridCell.Tab.1.center" timestamp="1601910284039">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="236" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1601710709637" />
-    <state width="1238" height="236" key="GridCell.Tab.1.left" timestamp="1601710709637">
+    <state width="1238" height="236" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1601910284039" />
+    <state width="1238" height="236" key="GridCell.Tab.1.left" timestamp="1601910284039">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="236" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1601710709637" />
-    <state width="1238" height="236" key="GridCell.Tab.1.right" timestamp="1601710709637">
+    <state width="1238" height="236" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1601910284039" />
+    <state width="1238" height="236" key="GridCell.Tab.1.right" timestamp="1601910284039">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="236" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1601710709637" />
+    <state width="1238" height="236" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1601910284039" />
     <state x="309" y="3" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601522111730">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="309" y="3" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.760@0.0.1280.760" timestamp="1601522111730" />
-    <state x="14" y="0" key="new project wizard" timestamp="1601690543529">
+    <state x="14" y="0" key="new project wizard" timestamp="1601948832222">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="14" y="0" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1601690543529" />
+    <state x="14" y="0" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1601948832222" />
     <state x="299" y="172" key="run.anything.popup" timestamp="1601533523260">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="299" y="172" key="run.anything.popup/0.0.1280.760@0.0.1280.760" timestamp="1601533523260" />
-    <state x="306" y="85" width="672" height="678" key="search.everywhere.popup" timestamp="1601708714846">
+    <state x="307" y="86" width="672" height="678" key="search.everywhere.popup" timestamp="1601952723703">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="306" y="85" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1601708714846" />
+    <state x="307" y="86" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1601952723703" />
   </component>
 </project>
