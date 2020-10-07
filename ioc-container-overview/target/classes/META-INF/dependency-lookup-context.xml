@@ -13,6 +13,13 @@
             <property name="id" value="1"/>
             <property name="name" value="Joshua"/>
             <property name="city" value="HANGZHOU"/>
+            <property name="workCities" value="HANGZHOU,SHANGHAI"/>
+            <property name="lifeCities">
+                <list>
+                    <value>HANGZHOU</value>
+                    <value>BEIJING</value>
+                </list>
+            </property>
             <property name="configLocation" value="classpath:/META-INF/user-config.properties"/>
         </bean>
 

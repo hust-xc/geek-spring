@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9b844a8-21fd-4311-961b-5a58fd910cbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ioc-container-overview/src/main/java/org/geekbang/thinking/in/spring/ioc/overview/enums/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc-container-overview/src/main/resources/META-INF/user-config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ioc-container-overview/src/main/java/org/geekbang/thinking/in/spring/ioc/overview/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc-container-overview/src/main/java/org/geekbang/thinking/in/spring/ioc/overview/domain/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ioc-container-overview/src/main/resources/META-INF/dependency-lookup-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioc-container-overview/src/main/resources/META-INF/dependency-lookup-context.xml" afterDir="false" />
@@ -161,7 +159,7 @@
       <workItem from="1601690309304" duration="56000" />
       <workItem from="1601690381702" duration="14539000" />
       <workItem from="1601948640840" duration="14526000" />
-      <workItem from="1602034182401" duration="5323000" />
+      <workItem from="1602034182401" duration="6287000" />
     </task>
     <servers />
   </component>
@@ -172,10 +170,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1602040135295">
+    <state x="446" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1602041181691">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="446" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1602040135295" />
+    <state x="446" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1602041181691" />
     <state x="89" y="308" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1601535433258">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -184,22 +182,22 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="336" y="247" width="607" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.760@0.0.1280.760" timestamp="1601980979467" />
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1602039028595">
+    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1602041330470">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1602039028595" />
-    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1602039028594">
+    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1602041330470" />
+    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1602041330470">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1602039028594" />
-    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1602039028594">
+    <state width="1238" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1602041330470" />
+    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1602041330469">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1602039028594" />
-    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1602039028595">
+    <state width="1238" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1602041330469" />
+    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1602041330470">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1602039028595" />
+    <state width="1238" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1602041330470" />
     <state width="1238" height="236" key="GridCell.Tab.1.bottom" timestamp="1601986343406">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
