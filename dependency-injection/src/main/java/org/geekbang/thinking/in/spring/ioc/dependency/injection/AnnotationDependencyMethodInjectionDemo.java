@@ -9,32 +9,40 @@ import org.springframework.context.annotation.Bean;
 import javax.annotation.Resource;
 
 /**
- * Autowired  通过字段的方式注入
+ * Autowired的方式  通过方法注入
  */
-public class AnnotationDependencyFieldInjectionDemo {
+public class AnnotationDependencyMethodInjectionDemo {
+
+    private UserHolder userHolder1;
+
+    private UserHolder userHolder2;
 
     @Autowired
-    private UserHolder userHolder;
+    public void initUserHolder1(UserHolder userHolder1) {
+        this.userHolder1 = userHolder1;
+    }
 
     @Resource
-    private UserHolder userHolder2;
+    public void initUserHolder2(UserHolder userHolder2) {
+        this.userHolder2 = userHolder2;
+    }
 
     public static void main(String[] args) {
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext();
-        applicationContext.register(AnnotationDependencyFieldInjectionDemo.class);
+        applicationContext.register(AnnotationDependencyMethodInjectionDemo.class);
         XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(applicationContext);
         String location = "classpath:/META-INF/dependency-lookup-context.xml";
         reader.loadBeanDefinitions(location);
 
         applicationContext.refresh();
 
-        AnnotationDependencyFieldInjectionDemo demo = applicationContext.getBean(AnnotationDependencyFieldInjectionDemo.class);
+        AnnotationDependencyMethodInjectionDemo demo = applicationContext.getBean(AnnotationDependencyMethodInjectionDemo.class);
 
-        UserHolder userHolder = demo.userHolder;
-        System.out.println(userHolder);
+        UserHolder userHolder1 = demo.userHolder1;
+        System.out.println(userHolder1);
 
         UserHolder userHolder2 = demo.userHolder2;
-        System.out.println(userHolder == userHolder2);
+        System.out.println(userHolder1 == userHolder2);
 
         applicationContext.close();
     }
