@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9b844a8-21fd-4311-961b-5a58fd910cbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dependency-injection/src/main/java/org/geekbang/thinking/in/spring/ioc/dependency/injection/LazyAnnotationDependencyInjectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/src/main/java/org/geekbang/thinking/in/spring/ioc/dependency/injection/AnnotationDependencyInjectionResolutionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/src/main/java/org/geekbang/thinking/in/spring/ioc/dependency/injection/annotation/InjectUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/src/main/java/org/geekbang/thinking/in/spring/ioc/dependency/injection/annotation/MyAutowired.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-injection/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-injection/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,9 +71,9 @@
       <recent name="D:\myStudy\thinking-in-spring\ioc-container-overview\src\main\resources\META-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LazyAnnotationDependencyInjectionDemo">
-    <configuration name="AnnotationDependencyMethodInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.geekbang.thinking.in.spring.ioc.dependency.injection.AnnotationDependencyMethodInjectionDemo" />
+  <component name="RunManager" selected="Application.AnnotationDependencyInjectionResolutionDemo">
+    <configuration name="AnnotationDependencyInjectionResolutionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geekbang.thinking.in.spring.ioc.dependency.injection.AnnotationDependencyInjectionResolutionDemo" />
       <module name="dependency-injection" />
       <extension name="coverage">
         <pattern>
@@ -136,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnnotationDependencyInjectionResolutionDemo" />
         <item itemvalue="Application.LazyAnnotationDependencyInjectionDemo" />
         <item itemvalue="Application.QualifierAnnotationDependencyInjectionDemo" />
         <item itemvalue="Application.DependencyLookupDemo" />
         <item itemvalue="Application.AwareInterfaceDependencyInjectionDemo" />
-        <item itemvalue="Application.AnnotationDependencyMethodInjectionDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +162,7 @@
       <workItem from="1601690309304" duration="56000" />
       <workItem from="1601690381702" duration="14539000" />
       <workItem from="1601948640840" duration="14526000" />
-      <workItem from="1602034182401" duration="10040000" />
+      <workItem from="1602034182401" duration="13849000" />
     </task>
     <servers />
   </component>
@@ -182,22 +185,22 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="336" y="247" width="607" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.760@0.0.1280.760" timestamp="1601980979467" />
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1602050783568">
+    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1602058665498">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1602050783568" />
-    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1602050783568">
+    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1602058665498" />
+    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1602058665498">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1602050783568" />
-    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1602050783568">
+    <state width="1238" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1602058665498" />
+    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1602058665498">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1602050783568" />
-    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1602050783568">
+    <state width="1238" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1602058665498" />
+    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1602058665498">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1602050783568" />
+    <state width="1238" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1602058665498" />
     <state width="1238" height="236" key="GridCell.Tab.1.bottom" timestamp="1601986343406">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
