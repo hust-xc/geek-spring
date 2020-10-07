@@ -1,10 +1,17 @@
 package org.geekbang.thinking.in.spring.ioc.overview.domain;
 
+import org.geekbang.thinking.in.spring.ioc.overview.enums.City;
+import org.springframework.core.io.Resource;
+
 public class User {
 
     private Long id;
 
     private String name;
+
+    private City city;
+
+    private Resource configLocation;
 
     public Long getId() {
         return id;
@@ -22,6 +29,22 @@ public class User {
         this.name = name;
     }
 
+    public City getCity() {
+        return city;
+    }
+
+    public void setCity(City city) {
+        this.city = city;
+    }
+
+    public Resource getConfigLocation() {
+        return configLocation;
+    }
+
+    public void setConfigLocation(Resource configLocation) {
+        this.configLocation = configLocation;
+    }
+
     public static User createUser() {
         User user = new User();
         user.setId(1L);
@@ -34,6 +57,8 @@ public class User {
         return "User{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
+                ", city=" + city +
+                ", configLocation=" + configLocation +
                 '}';
     }
 }
