@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="b9b844a8-21fd-4311-961b-5a58fd910cbc" name="Default Changelist" comment="" />
-=======
     <list default="true" id="b9b844a8-21fd-4311-961b-5a58fd910cbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dependency-source/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependency-source/src/main/java/org/geekbang/thinking/in/spring/ioc/dependency/source/DependencySourceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependency-source/src/main/java/org/geekbang/thinking/in/spring/ioc/dependency/source/ResolvableDependencySourceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean-scope/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean-scope/src/main/java/org/geekbang/thinking/in/spring/ioc/bean/scope/BeanScopeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean-scope/src/main/java/org/geekbang/thinking/in/spring/ioc/bean/scope/ThreadLocalScope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean-scope/src/main/java/org/geekbang/thinking/in/spring/ioc/bean/scope/ThreadLocalScopeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean-scope/src/main/java/org/geekbang/thinking/in/spring/ioc/bean/scope/web/WebConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean-scope/src/main/java/org/geekbang/thinking/in/spring/ioc/bean/scope/web/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean-scope/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean-scope/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean-scope/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc-container-overview/src/main/java/org/geekbang/thinking/in/spring/ioc/overview/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc-container-overview/src/main/java/org/geekbang/thinking/in/spring/ioc/overview/domain/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
->>>>>>> a2de695e1040b19014723ac8bafd54b516b0ed47
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +27,7 @@
         <option value="Interface" />
         <option value="Enum" />
         <option value="AnnotationType" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -34,12 +39,8 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="D:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="$USER_HOME$/meituan/apache-maven-3.5.4/settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1hVVsi1dl88LSUInQh0h5gr4rP5" />
@@ -48,7 +49,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -57,14 +57,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< HEAD
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-=======
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/dependency-injection/src/main/resources/META-INF" />
->>>>>>> a2de695e1040b19014723ac8bafd54b516b0ed47
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -81,7 +76,7 @@
       <recent name="D:\myStudy\thinking-in-spring\ioc-container-overview\src\main\resources\META-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DependencySourceDemo">
+  <component name="RunManager" selected="Application.BeanScopeDemo">
     <configuration name="AnnotationDependencyInjectionResolutionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.geekbang.thinking.in.spring.ioc.dependency.injection.AnnotationDependencyInjectionResolutionDemo" />
       <module name="dependency-injection" />
@@ -95,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DependencyLookupDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.geekbang.thinking.in.spring.ioc.overview.dependency.lookup.DependencyLookupDemo" />
-      <module name="ioc-container-overview" />
+    <configuration name="BeanScopeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geekbang.thinking.in.spring.ioc.bean.scope.BeanScopeDemo" />
+      <module name="bean-scope" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.geekbang.thinking.in.spring.ioc.overview.dependency.lookup.*" />
+          <option name="PATTERN" value="org.geekbang.thinking.in.spring.ioc.bean.scope.web.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BeanScopeDemo" />
         <item itemvalue="Application.DependencySourceDemo" />
         <item itemvalue="Application.AnnotationDependencyInjectionResolutionDemo" />
         <item itemvalue="Application.LazyAnnotationDependencyInjectionDemo" />
         <item itemvalue="Application.QualifierAnnotationDependencyInjectionDemo" />
-        <item itemvalue="Application.DependencyLookupDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -167,72 +162,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600096454922</updated>
-<<<<<<< HEAD
-      <workItem from="1600096458123" duration="808000" />
-      <workItem from="1600932744470" duration="5102000" />
-=======
       <workItem from="1600096458123" duration="1002000" />
       <workItem from="1601518225180" duration="5677000" />
       <workItem from="1601690309304" duration="56000" />
       <workItem from="1601690381702" duration="14539000" />
       <workItem from="1601948640840" duration="14526000" />
       <workItem from="1602034182401" duration="18733000" />
->>>>>>> a2de695e1040b19014723ac8bafd54b516b0ed47
+      <workItem from="1602151666436" duration="1239000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1602041181691">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-<<<<<<< HEAD
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1600938563441" />
-    <state width="1398" height="294" key="GridCell.Tab.0.bottom" timestamp="1600939241527">
+    <state x="502" y="86" key="#com.intellij.ide.util.MemberChooser" timestamp="1602135057060">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1600096467090" />
-    <state width="1398" height="294" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600939241527" />
-    <state width="1398" height="294" key="GridCell.Tab.0.center" timestamp="1600939241525">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1600096467090" />
-    <state width="1398" height="294" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600939241525" />
-    <state width="1398" height="294" key="GridCell.Tab.0.left" timestamp="1600939241524">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1600096467090" />
-    <state width="1398" height="294" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600939241524" />
-    <state width="1398" height="294" key="GridCell.Tab.0.right" timestamp="1600939241526">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1600096467090" />
-    <state width="1398" height="294" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600939241526" />
-    <state width="1398" height="294" key="GridCell.Tab.1.bottom" timestamp="1600939241530">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="294" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600939241530" />
-    <state width="1398" height="294" key="GridCell.Tab.1.center" timestamp="1600939241529">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="294" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1600939241529" />
-    <state width="1398" height="294" key="GridCell.Tab.1.left" timestamp="1600939241528">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="294" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1600939241528" />
-    <state width="1398" height="294" key="GridCell.Tab.1.right" timestamp="1600939241529">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="294" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1600939241529" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1600932922422">
-      <screen x="0" y="0" width="1440" height="900" />
-=======
     <state x="446" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1602041181691" />
+    <state x="502" y="86" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1602135057060" />
     <state x="89" y="308" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1601535433258">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -241,22 +192,26 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="336" y="247" width="607" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.760@0.0.1280.760" timestamp="1601980979467" />
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1602069818659">
-      <screen x="0" y="0" width="1280" height="760" />
+    <state width="1398" height="238" key="GridCell.Tab.0.bottom" timestamp="1602135709553">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1602069818659" />
-    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1602069818658">
-      <screen x="0" y="0" width="1280" height="760" />
+    <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1602135709553" />
+    <state width="1398" height="238" key="GridCell.Tab.0.center" timestamp="1602135709552">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1238" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1602069818658" />
-    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1602069818658">
-      <screen x="0" y="0" width="1280" height="760" />
+    <state width="1398" height="238" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1602135709552" />
+    <state width="1398" height="238" key="GridCell.Tab.0.left" timestamp="1602135709551">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1238" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1602069818658" />
-    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1602069818658">
-      <screen x="0" y="0" width="1280" height="760" />
+    <state width="1398" height="238" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1602135709551" />
+    <state width="1398" height="238" key="GridCell.Tab.0.right" timestamp="1602135709552">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1238" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1602069818658" />
+    <state width="1398" height="238" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1602135709552" />
     <state width="1238" height="236" key="GridCell.Tab.1.bottom" timestamp="1601986343406">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -273,6 +228,10 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="1238" height="236" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1601986343405" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1602153518607">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1602153518607" />
     <state x="309" y="3" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601522111730">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -283,7 +242,6 @@
     <state x="14" y="0" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1602068519698" />
     <state x="300" y="173" key="run.anything.popup" timestamp="1602048114940">
       <screen x="0" y="0" width="1280" height="760" />
->>>>>>> a2de695e1040b19014723ac8bafd54b516b0ed47
     </state>
     <state x="300" y="173" key="run.anything.popup/0.0.1280.760@0.0.1280.760" timestamp="1602048114940" />
     <state x="310" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1602072428955">

@@ -1,12 +1,15 @@
 package org.geekbang.thinking.in.spring.ioc.overview.domain;
 
 import org.geekbang.thinking.in.spring.ioc.overview.enums.City;
+import org.springframework.beans.factory.BeanNameAware;
 import org.springframework.core.io.Resource;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 import java.util.Arrays;
 import java.util.List;
 
-public class User {
+public class User implements BeanNameAware {
 
     private Long id;
 
@@ -19,6 +22,8 @@ public class User {
     private List<City> lifeCities;
 
     private Resource configLocation;
+
+    private String beanName;
 
     public Long getId() {
         return id;
@@ -75,6 +80,16 @@ public class User {
         return user;
     }
 
+    @PostConstruct
+    public void init() {
+        System.out.println("User Bean [" + beanName + "] 初始化...");
+    }
+
+    @PreDestroy
+    public void destroy() {
+        System.out.println("User Bean [" + beanName + "] 销毁中...");
+    }
+
     @Override
     public String toString() {
         return "User{" +
@@ -85,5 +100,10 @@ public class User {
                 ", lifeCities=" + lifeCities +
                 ", configLocation=" + configLocation +
                 '}';
+    }
+
+    @Override
+    public void setBeanName(String beanName) {
+        this.beanName = beanName;
     }
 }
