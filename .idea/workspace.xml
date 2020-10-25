@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9b844a8-21fd-4311-961b-5a58fd910cbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bean-scope/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bean-scope/src/main/java/org/geekbang/thinking/in/spring/ioc/bean/scope/BeanScopeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bean-scope/src/main/java/org/geekbang/thinking/in/spring/ioc/bean/scope/ThreadLocalScope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bean-scope/src/main/java/org/geekbang/thinking/in/spring/ioc/bean/scope/ThreadLocalScopeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bean-scope/src/main/java/org/geekbang/thinking/in/spring/ioc/bean/scope/web/WebConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bean-scope/src/main/java/org/geekbang/thinking/in/spring/ioc/bean/scope/web/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bean-scope/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bean-scope/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bean-scope/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean-lifecycle/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean-lifecycle/src/main/resources/META-INF/user.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc-container-overview/src/main/java/org/geekbang/thinking/in/spring/ioc/overview/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc-container-overview/src/main/java/org/geekbang/thinking/in/spring/ioc/overview/domain/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +50,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dependency-injection/src/main/resources/META-INF" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -168,7 +161,8 @@
       <workItem from="1601690381702" duration="14539000" />
       <workItem from="1601948640840" duration="14526000" />
       <workItem from="1602034182401" duration="18733000" />
-      <workItem from="1602151666436" duration="1239000" />
+      <workItem from="1602151666436" duration="1579000" />
+      <workItem from="1603365122499" duration="1533000" />
     </task>
     <servers />
   </component>
@@ -228,18 +222,19 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state width="1238" height="236" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1601986343405" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1602153518607">
+    <state x="221" y="89" key="SettingsEditor" timestamp="1602209113207">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1602153518607" />
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1602209113207" />
     <state x="309" y="3" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601522111730">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="309" y="3" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.760@0.0.1280.760" timestamp="1601522111730" />
-    <state x="14" y="0" key="new project wizard" timestamp="1602068519698">
-      <screen x="0" y="0" width="1280" height="760" />
+    <state x="16" y="0" key="new project wizard" timestamp="1603365648640">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="14" y="0" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1602068519698" />
+    <state x="16" y="0" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1603365648640" />
     <state x="300" y="173" key="run.anything.popup" timestamp="1602048114940">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
