@@ -3,14 +3,13 @@ package org.geekbang.thinking.in.spring.bean.lifecycle;
 
 import org.geekbang.thinking.in.spring.ioc.overview.domain.User;
 import org.springframework.beans.BeansException;
-import org.springframework.beans.factory.BeanClassLoaderAware;
-import org.springframework.beans.factory.BeanFactory;
-import org.springframework.beans.factory.BeanFactoryAware;
-import org.springframework.beans.factory.BeanNameAware;
+import org.springframework.beans.factory.*;
 import org.springframework.context.EnvironmentAware;
 import org.springframework.core.env.Environment;
 
-public class UserHolder implements BeanNameAware, BeanClassLoaderAware, BeanFactoryAware, EnvironmentAware{
+import javax.annotation.PostConstruct;
+
+public class UserHolder implements BeanNameAware, BeanClassLoaderAware, BeanFactoryAware, EnvironmentAware, InitializingBean {
 
     public UserHolder(User user) {
         this.user = user;
@@ -29,6 +28,33 @@ public class UserHolder implements BeanNameAware, BeanClassLoaderAware, BeanFact
     private String beanName;
 
     private Environment environment;
+
+    /**
+     * 依赖于注解驱动
+     * 当前场景：BeanFactory
+     */
+    @PostConstruct
+    public void initPostConstruct() {
+        // postProcessBeforeInitialization V3 -> initPostConstruct V4
+        this.description = "The user holder V4";
+        System.out.println("initPostConstruct() = " + description);
+    }
+
+    @Override
+    public void afterPropertiesSet() throws Exception {
+        // initPostConstruct V4 -> afterPropertiesSet V5
+        this.description = "The user holder V5";
+        System.out.println("afterPropertiesSet() = " + description);
+    }
+
+    /**
+     * 自定义初始化方法
+     */
+    public void init() {
+        // initPostConstruct V5 -> afterPropertiesSet V6
+        this.description = "The user holder V6";
+        System.out.println("init() = " + description);
+    }
 
     @Override
     public void setBeanClassLoader(ClassLoader classLoader) {
