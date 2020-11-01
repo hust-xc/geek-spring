@@ -8,8 +8,10 @@ import org.springframework.context.EnvironmentAware;
 import org.springframework.core.env.Environment;
 
 import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 
-public class UserHolder implements BeanNameAware, BeanClassLoaderAware, BeanFactoryAware, EnvironmentAware, InitializingBean {
+public class UserHolder implements BeanNameAware, BeanClassLoaderAware, BeanFactoryAware,
+        EnvironmentAware, InitializingBean, SmartInitializingSingleton, DisposableBean {
 
     public UserHolder(User user) {
         this.user = user;
@@ -107,5 +109,36 @@ public class UserHolder implements BeanNameAware, BeanClassLoaderAware, BeanFact
                 ", beanName='" + beanName + '\'' +
                 ", environment=" + environment +
                 '}';
+    }
+
+    @Override
+    public void afterSingletonsInstantiated() {
+        // postProcessAfterInitialization V7 -> afterSingletonsInstantiated V8
+        this.description = "The user holder V8";
+        System.out.println("afterSingletonsInstantiated() = " + description);
+    }
+
+    @PreDestroy
+    public void preDestroy() {
+        // postProcessBeforeDestruction : The user holder V9
+        this.description = "The user holder V10";
+        System.out.println("preDestroy() = " + description);
+    }
+
+    @Override
+    public void destroy() throws Exception {
+        // preDestroy : The user holder V10
+        this.description = "The user holder V11";
+        System.out.println("destroy() = " + description);
+    }
+
+    public void doDestroy() {
+        // destroy : The user holder V11
+        this.description = "The user holder V12";
+        System.out.println("doDestroy() = " + description);
+    }
+
+    protected void finalize() throws Throwable {
+        System.out.println("The UserHolder is finalized...");
     }
 }
