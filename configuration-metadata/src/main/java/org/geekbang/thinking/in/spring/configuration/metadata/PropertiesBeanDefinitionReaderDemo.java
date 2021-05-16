@@ -22,7 +22,7 @@ public class PropertiesBeanDefinitionReaderDemo {
         //Properties加载默认通过iso-8859-1读取  实际存储是utf-8
         ResourceLoader resourceLoader = new DefaultResourceLoader();
         //通过指定的classpath获取resource
-        Resource resource = resourceLoader.getResource("classpath:/META-INF/users-bean-definitions.properties");
+        Resource resource = resourceLoader.getResource("classpath:/META-INF/user-bean-definitions.properties");
         //转换成带有字符编码的resource
         EncodedResource encodedResource = new EncodedResource(resource, "utf-8");
         int beanDefinitions = beanDefinitionReader.loadBeanDefinitions(encodedResource);

@@ -11,8 +11,8 @@ import java.util.Map;
  */
 @ImportResource("classpath:/META-INF/dependency-lookup-context.xml")
 @Import(User.class)
-@PropertySource("classpath:/META-INF/users-bean-definitions.properties") // Java 8+ @Repeatable 支持
-@PropertySource("classpath:/META-INF/users-bean-definitions.properties")
+@PropertySource("classpath:/META-INF/user-bean-definitions.properties") // Java 8+ @Repeatable 支持
+@PropertySource("classpath:/META-INF/user-bean-definitions.properties")
 // @PropertySources(@PropertySource(...))
 public class AnnotatedSpringIoCContainerMetadataConfigurationDemo {
 
