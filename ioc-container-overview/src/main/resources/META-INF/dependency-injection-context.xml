@@ -8,7 +8,7 @@
 
         <import resource= "dependency-lookup-context.xml"/>
 
-        <bean id="userRepository" class="org.geekbang.thinking.in.spring.ioc.overview.repository.UserRepository"
+        <bean id="userRepository" class="org.geekbang.thinking.in.spring.conversion.ioc.overview.repository.UserRepository"
               autowire="byType">
 <!--            <property name="users">-->
 <!--                <util:list>-->

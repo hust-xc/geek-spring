@@ -10,7 +10,7 @@ http://time.geekbang.org/schema/users.xsd
 ">
 
 <!--
-<bean id="user" class="org.geekbang.thinking.in.spring.ioc.overview.domain.User">
+<bean id="user" class="User">
 <property name="id" value="1"/>
 <property name="name" value="小马哥"/>
 <property name="city" value="HANGZHOU"/>

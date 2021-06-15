@@ -9,7 +9,7 @@
         https://www.springframework.org/schema/context/spring-context.xsd">
 
 
-        <bean id="user" class="org.geekbang.thinking.in.spring.ioc.overview.domain.User">
+        <bean id="user" class="org.geekbang.thinking.in.spring.conversion.ioc.overview.domain.User">
             <property name="id" value="1"/>
             <property name="name" value="Joshua"/>
             <property name="city" value="HANGZHOU"/>
@@ -30,7 +30,7 @@
         </bean>
 
         <!-- primary表示当有多个类型相同的bean   优先使用primary=true的   但是有多个primary=true的  那还是按照id来拿吧     -->
-        <bean id="superUser" class="org.geekbang.thinking.in.spring.ioc.overview.domain.SuperUser"
+        <bean id="superUser" class="org.geekbang.thinking.in.spring.conversion.ioc.overview.domain.SuperUser"
               parent="user" primary="true">
             <property name="address" value="上海"/>
         </bean>
